@@ -20,7 +20,8 @@ SUPPLIERS: Records supplier contact and location data.
 
 PRODUCTS: Lists all products with details such as supplier, category, pricing, and availability.
 
-## SQL Queries with Comments
+## SQL Queries 
+You will need first to execute this [sql_script](https://github.com/Kawther-MSD/SQL/blob/main/SQL/SQL_project.sql) in your SQL Server .
 
 ### 1. Male employees whose net salary is ≥8000, ordered by seniority :
 
@@ -31,7 +32,7 @@ SELECT EMPLOYEE_int, FIRST_NAME, LAST_NAME,
        YEAR(GETDATE()) - YEAR(HIRE_DATE) AS SENIORITY -- Calculate seniority from hire date
 FROM EMPLOYEES
 WHERE (SALARY + ISNULL(COMMISSION, 0)) >= 8000
-  AND TITLE IN ('Mr', 'Mrs') -- Assuming TITLE holds gender-representative titles
+  AND TITLE IN ('Mrs.', 'Mr.') -- Assuming TITLE holds gender-representative titles
 ORDER BY SENIORITY DESC;
 ```
 <img src="https://github.com/Kawther-MSD/SQL/blob/main/SQL/Capture%20d'%C3%A9cran%202025-04-24%20191328.png" heigth="800" width="750">
