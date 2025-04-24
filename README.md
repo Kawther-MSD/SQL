@@ -171,3 +171,15 @@ SELECT
 ```
 <img src="https://github.com/Kawther-MSD/SQL/blob/main/SQL/Capture%20d'%C3%A9cran%202025-04-24%20213558.png" heigth="800" width="750">
 
+## Conclusion
+This project highlights practical applications of advanced SQL queries within a commercial database context. Each query was designed to simulate real-world data needs and analytical tasks, helping to reinforce understanding of complex SQL techniques like joins, subqueries, aggregation, filtering, and conditional logic.
+
+These exercises not only serve to sharpen SQL skills but also to develop an analytical mindset essential for data-driven problem solving in real business scenarios.
+
+Author
+[Kaouther Messaoudi](https://www.linkedin.com/in/messaoudi-kaouther/) -LinkedIn
+
+
+Advanced SQL Queries Project — 2025
+
+For more projects, visit my GitHub [profile](https://github.com/Kawther-MSD/SQL/commits?author=Kawther-MSD).
